@@ -11,7 +11,7 @@ export class ProductListComponent {
     imageMargin: number = 2;
     showImage: boolean = false;
     listFiler: string = 'cart';
-    products: any[] = [
+    products: IProduct[] = [
 
         {
             "productId": 2,
